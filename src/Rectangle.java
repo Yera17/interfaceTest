@@ -1,10 +1,6 @@
-public class Rectangle {
-    private final double a;
-    private final double b;
-
+public class Rectangle extends Parallelogram {
     public Rectangle(double a, double b) {
-        this.a = a;
-        this.b = b;
+        super(a, b);
     }
 
 }
